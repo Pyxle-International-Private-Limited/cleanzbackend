@@ -1,0 +1,22 @@
+{
+  "name": "pyxle-ewsms",
+  "version": "1.0.0",
+  "description": "Pyxle Employee Work Schedule Management System",
+  "main": "index.js",
+  "scripts": {
+    "test": "ewsms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Pyxle-EWsms"
+  },
+  "keywords": [
+    "ewsms"
+  ],
+  "author": "Kolitha",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^13.1.0"
+  }
+}
