@@ -29,7 +29,7 @@ const employees = [
     {nic_ssn_ppn: 'emp-4', firstname: 'kavindu', lastname: 'vidubhashana', address: 'new york no. 1 lake park', email:'kavidu.vidubhashana@pyxle.io', mobile:'0773255152', username: 'kavindu', password: '1234', isactive:true, roletype:'operator', provider_code: 'pro-3'},
 ];
 
-const empoyee_roles = [
+const employee_roles = [
   {employeeroletype: 'emprol-1', isactive:true},
   {employeeroletype: 'emprol-2', isactive:true},
   {employeeroletype: 'emprol-3', isactive:true},
@@ -78,7 +78,7 @@ app.get('/api/clients',(req,res,next) => {
 
 //----------------------client location api methods-------------------------------
 app.get('/api/clients_locations',(req,res,next) => {
-  res.send(clients);
+  res.send(client_locations);
 });
 //----------------------end of client location api methods-------------------------------
 
@@ -101,25 +101,25 @@ app.delete('/api/providers/!id',(req,res) => {
 
 //----------------------services api methods-------------------------------
 app.get('/api/services',(req,res,next) => {
-  res.send(clients);
+  res.send(services);
 });
 //----------------------end of services api methods-------------------------------
 
 //----------------------sub services api methods-------------------------------
 app.get('/api/sub_services',(req,res,next) => {
-  res.send(clients);
+  res.send(sub_services);
 });
 //----------------------end of sub services api methods-------------------------------
 
 //----------------------employee api methods-------------------------------
 app.get('/api/employees',(req,res,next) => {
-  res.send(clients);
+  res.send(employees);
 });
 //----------------------end of employee api methods-------------------------------
 
 //----------------------employee roles api methods-------------------------------
 app.get('/api/employee_roles',(req,res,next) => {
-  res.send(clients);
+  res.send(employee_roles);
 });
 //----------------------end of employee roles api methods-------------------------------
 
