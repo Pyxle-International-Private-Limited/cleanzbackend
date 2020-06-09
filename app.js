@@ -77,7 +77,7 @@ app.get('/api/clients',(req,res,next) => {
 //----------------------end of client api methods-------------------------------
 
 //----------------------client location api methods-------------------------------
-app.get('/api/clients_locations',(req,res,next) => {
+app.get('/api/client_locations',(req,res,next) => {
   res.send(client_locations);
 });
 //----------------------end of client location api methods-------------------------------
