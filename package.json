@@ -16,7 +16,7 @@
   "author": "Kolitha",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "joi": "^13.1.0"
   }
 }
